@@ -7,7 +7,7 @@ from django.conf import settings
 from django.http import FileResponse, Http404
 
 from django.utils.http import http_date
-from django.utils.six.moves.urllib.parse import unquote
+from six.moves.urllib.parse import unquote
 from django.core.files.storage import default_storage
 from django.conf.urls import url
 
